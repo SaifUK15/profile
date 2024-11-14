@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saif Ullah Khalid - Nanotechnology Researcher</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2C3E50;
+            --secondary-color: #3498DB;
+            --accent-color: #E74C3C;
+            --text-color: #2C3E50;
+            --bg-color: #ECF0F1;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .profile-intro {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .profile-intro h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .profile-intro p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: var(--primary-color);
+            font-size: 2rem;
+        }
+
+        .research-highlights {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .research-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .research-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .skill-category {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .education-timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .timeline-item {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-info {
+            text-align: center;
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-info a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+
+        .contact-info a:hover {
+            color: var(--accent-color);
+        }
+
+        .achievements-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .achievements-list li {
+            background: white;
+            margin-bottom: 1rem;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .profile-intro h1 {
+                font-size: 2rem;
+            }
+
+            section {
+                padding: 2rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="profile-intro" data-aos="fade-down">
+            <h1>Saif Ullah Khalid</h1>
+            <p>Nanotechnology Researcher | Materials Science Innovator | Educator</p>
+        </div>
+    </header>
+
+    <section id="about" data-aos="fade-up">
+        <h2 class="section-title">About Me</h2>
+        <div class="research-card">
+            <p>I'm a passionate nanotechnology researcher with an M.Phil in Solid State Physics from the University of the Punjab, Lahore. My work focuses on developing innovative antibacterial fabrics using ZnO nanoparticles, combining cutting-edge science with practical applications in functional textiles.</p>
+        </div>
+    </section>
+
+    <section id="research" data-aos="fade-up">
+        <h2 class="section-title">Research Highlights</h2>
+        <div class="research-highlights">
+            <div class="research-card" data-aos="fade-right">
+                <h3>ZnO-Coated Fabric</h3>
+                <ul>
+                    <li>Enhanced Antibacterial Power: Development of fabrics with ZnO nanoparticles for antibacterial protection.</li>
+                    <li>Superhydrophobicity: Achieving a contact angle of 157° through HDTMS treatment.</li>
+                    <li>Sustainable Solutions: Using green synthesis to minimize environmental impact.</li>
+                </ul>
+            </div>
+            <div class="research-card" data-aos="fade-left">
+                <h3>Advanced Antibacterial Testing</h3>
+                <p>Proficiency in well-diffusion and disk-diffusion methods to analyze how nanoparticle treatments enhance antibacterial properties.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" data-aos="fade-up">
+        <h2 class="section-title">Professional Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category" data-aos="fade-up">
+                <h3>Synthesis Techniques</h3>
+                <ul>
+                    <li>Sol-gel Method</li>
+                    <li>Hydrothermal Synthesis</li>
+                    <li>Green Synthesis Methods</li>
+                </ul>
+            </div>
+            <div class="skill-category" data-aos="fade-up">
+                <h3>Analysis Tools</h3>
+                <ul>
+                    <li>Origin for Data Visualization</li>
+                    <li>MATLAB Fundamentals</li>
+                    <li>COMSOL Modeling</li>
+                </ul>
+            </div>
+            <div class="skill-category" data-aos="fade-up">
+                <h3>Research & Development</h3>
+                <ul>
+                    <li>Experimental Design</li>
+                    <li>Data Interpretation</li>
+                    <li>Technical Documentation</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" data-aos="fade-up">
+        <h2 class="section-title">Education</h2>
+        <div class="education-timeline">
+            <div class="timeline-item" data-aos="fade-right">
+                <h3>M.Phil in Solid State Physics</h3>
+                <p>University of the Punjab, Lahore</p>
+                <p>Focus: Nanotechnology and materials science with emphasis on antibacterial applications.</p>
+            </div>
+            <div class="timeline-item" data-aos="fade-left">
+                <h3>Bachelor of Science in Physics</h3>
+                <p>University of the Punjab, Lahore</p>
+                <p>Strong foundation in physical sciences and research methodology.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" data-aos="fade-up">
+        <h2 class="section-title">Honors & Achievements</h2>
+        <ul class="achievements-list">
+            <li data-aos="fade-up">Chief Minister's Punjab Laptop Scheme Recipient (2017) - Recognized for academic excellence.</li>
+            <li data-aos="fade-up">Role of Honor as Proctor (2019) - Demonstrated leadership and community service.</li>
+            <li data-aos="fade-up">Sustainability Advocate - Participant in the 2018 Plantation Campaign.</li>
+        </ul>
+    </section>
+
+    <section id="contact" data-aos="fade-up">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:saif.pu.edu@gmail.com">saif.pu.edu@gmail.com</a></p>
+            <p>Phone: <a href="tel:+923480678054">+923480678054</a></p>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        // Initialize AOS (Animate On Scroll)
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100
+        });
+
+        // Smooth scroll for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
